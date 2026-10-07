@@ -1,5 +1,6 @@
-class BooksCollector:
 
+
+class BooksCollector:
     def __init__(self):
         self.books_genre = {}
         self.favorites = []
@@ -55,3 +56,4 @@ class BooksCollector:
     # получаем список Избранных книг
     def get_list_of_favorites_books(self):
         return self.favorites
+
